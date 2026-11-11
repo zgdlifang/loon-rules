@@ -1,0 +1,9 @@
+# Siri 国内直连
+HOST,guzzoni.apple.com,DIRECT
+HOST-SUFFIX,smoot.apple.com,DIRECT
+
+# Apple Intelligence 美国代理
+HOST,apple-relay.cloudflare.com,美国节点
+HOST,apple-relay.fastly-edge.com,美国节点
+HOST,cp4.cloudflare.com,美国节点
+HOST,apple-relay.apple.com,美国节点
