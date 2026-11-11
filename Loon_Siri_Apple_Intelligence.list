@@ -1,0 +1,14 @@
+# Loon Rule Set - Siri DIRECT + Apple Intelligence US Proxy
+# Import as a local rule set in Loon.
+# IMPORTANT: Replace 美国节点 with the exact name of your US proxy policy/group.
+# Siri / dictation / Apple search: DIRECT
+DOMAIN,guzzoni.apple.com,DIRECT
+DOMAIN-SUFFIX,smoot.apple.com,DIRECT
+
+# Apple Intelligence Private Cloud Compute: US proxy
+DOMAIN,apple-relay.cloudflare.com,美国节点
+DOMAIN,apple-relay.fastly-edge.com,美国节点
+DOMAIN,cp4.cloudflare.com,美国节点
+
+# Apple Intelligence Extensions: US proxy
+DOMAIN,apple-relay.apple.com,美国节点
