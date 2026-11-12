@@ -1,8 +1,12 @@
-# Siri 国内直连
+# Siri / 听写 / 语音识别 / 聚焦搜索：直连
 HOST,guzzoni.apple.com,DIRECT
+HOST,guzzoni-apple-com.v.aaplimg.com,DIRECT
+HOST-SUFFIX,ls.apple.com,DIRECT
 HOST-SUFFIX,smoot.apple.com,DIRECT
+HOST-SUFFIX,smoot.apple.cn,DIRECT
+HOST,ml.cdn-apple.com,DIRECT
 
-# Apple Intelligence 美国代理
+# Apple Intelligence 私有云计算：全球加速
 HOST,apple-relay.cloudflare.com,全球加速
 HOST,apple-relay.fastly-edge.com,全球加速
 HOST,cp4.cloudflare.com,全球加速
