@@ -1,14 +1,18 @@
-# ===== Siri / 听写 / 基础搜索：直连（Apple 官方标注不支持代理）=====
-HOST,guzzoni.apple.com,DIRECT
-HOST,guzzoni-apple-com.v.aaplimg.com,DIRECT
-HOST-SUFFIX,smoot.apple.com,DIRECT
-HOST-SUFFIX,smoot.apple.cn,DIRECT
-HOST,ml.cdn-apple.com,DIRECT
 
-# ===== Apple Intelligence + 地理位置检测：走代理策略组 =====
-# ls.apple.com 下的 gspe*-ssl.ls.apple.com 用于判断地区，直连会被判为大陆导致 AI 不可用
-HOST-SUFFIX,ls.apple.com,美国节点
-HOST,apple-relay.apple.com,美国节点
-HOST,apple-relay.cloudflare.com,美国节点
-HOST,apple-relay.fastly-edge.com,美国节点
-HOST,cp4.cloudflare.com,美国节点
+# Quantumult X - Siri + Apple Intelligence
+
+# ===== Siri：国内直连 =====
+host,guzzoni.apple.com,direct
+host,guzzoni-apple-com.v.aaplimg.com,direct
+host-suffix,smoot.apple.com,direct
+host-suffix,smoot.apple.cn,direct
+host,ml.cdn-apple.com,direct
+
+# ===== Apple Intelligence：美国节点 =====
+host-suffix,ls.apple.com,美国节点策略
+host,apple-relay.apple.com,美国节点策略
+host,apple-relay.cloudflare.com,美国节点策略
+host,apple-relay.fastly-edge.com,美国节点策略
+host,cp4.cloudflare.com,美国节点策略
+
+
