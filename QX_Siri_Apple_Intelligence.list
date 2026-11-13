@@ -3,8 +3,8 @@
 host,guzzoni.apple.com,direct
 host-suffix,smoot.apple.com,direct
 
-# Apple Intelligence 美国节点
-host,apple-relay.cloudflare.com,美国节点
-host,apple-relay.fastly-edge.com,美国节点
-host,cp4.cloudflare.com,美国节点
-host,apple-relay.apple.com,美国节点
+# Apple Intelligence 美国节点策略
+host,apple-relay.cloudflare.com,美国节点策略
+host,apple-relay.fastly-edge.com,美国节点策略
+host,cp4.cloudflare.com,美国节点策略
+host,apple-relay.apple.com,美国节点策略
