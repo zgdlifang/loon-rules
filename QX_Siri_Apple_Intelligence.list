@@ -1,0 +1,10 @@
+# Quantumult X
+# Siri 国内直连
+host,guzzoni.apple.com,direct
+host-suffix,smoot.apple.com,direct
+
+# Apple Intelligence 相关中继：美国节点
+host,apple-relay.cloudflare.com,美国节点
+host,apple-relay.fastly-edge.com,美国节点
+host,cp4.cloudflare.com,美国节点
+host,apple-relay.apple.com,美国节点
