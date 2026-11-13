@@ -4,7 +4,7 @@ host,guzzoni.apple.com,direct
 host-suffix,smoot.apple.com,direct
 
 # Apple Intelligence 相关中继
-host,apple-relay.cloudflare.com,全球加速
-host,apple-relay.fastly-edge.com,全球加速
-host,cp4.cloudflare.com,全球加速
-host,apple-relay.apple.com,全球加速
+host,apple-relay.cloudflare.com,5544c7d8-064b-4454-8902-521d95fe614d
+host,apple-relay.fastly-edge.com,5544c7d8-064b-4454-8902-521d95fe614d
+host,cp4.cloudflare.com,5544c7d8-064b-4454-8902-521d95fe614d
+host,apple-relay.apple.com,5544c7d8-064b-4454-8902-521d95fe614d
