@@ -1,13 +1,14 @@
-# Siri / 听写 / 语音识别 / 聚焦搜索：直连
+# ===== Siri / 听写 / 基础搜索：直连（Apple 官方标注不支持代理）=====
 HOST,guzzoni.apple.com,DIRECT
 HOST,guzzoni-apple-com.v.aaplimg.com,DIRECT
-HOST-SUFFIX,ls.apple.com,DIRECT
 HOST-SUFFIX,smoot.apple.com,DIRECT
 HOST-SUFFIX,smoot.apple.cn,DIRECT
 HOST,ml.cdn-apple.com,DIRECT
 
-# Apple Intelligence 私有云计算：全球加速
-HOST,apple-relay.cloudflare.com,全球加速
-HOST,apple-relay.fastly-edge.com,全球加速
-HOST,cp4.cloudflare.com,全球加速
-HOST,apple-relay.apple.com,全球加速
+# ===== Apple Intelligence + 地理位置检测：走代理策略组 =====
+# ls.apple.com 下的 gspe*-ssl.ls.apple.com 用于判断地区，直连会被判为大陆导致 AI 不可用
+HOST-SUFFIX,ls.apple.com,美国节点
+HOST,apple-relay.apple.com,美国节点
+HOST,apple-relay.cloudflare.com,美国节点
+HOST,apple-relay.fastly-edge.com,美国节点
+HOST,cp4.cloudflare.com,美国节点
