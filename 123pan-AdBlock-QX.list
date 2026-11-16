@@ -1,0 +1,6 @@
+# 123 云盘去广告 · Quantumult X
+# 作用：拦截开屏广告 / 应用内横幅的配置下发接口，返回空 JSON {}
+# 导入位置：QX → 重写（rewrite）→ 引用远程重写，订阅本文件
+# 说明：reject-dict 返回 200 + 空 JSON 对象，等价于本地映射空响应；无需开启 MITM
+
+^https:\/\/www\.123pan\.com\/api\/config\/get url reject-dict
