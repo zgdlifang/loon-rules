@@ -1,0 +1,5 @@
+
+# 123云盘 iOS 去广告
+# Quantumult X
+# 仅拦截已知广告配置接口
+^https:\/\/www\.123pan\.com\/api\/config\/get url reject-dict
